@@ -91,7 +91,7 @@ const Mynav = () => {
               <div className="flex flex-col justify-center items-center lg:pt-28 pt-[50px] max-lg:pb-[140px]">
                   <h1 className="text-white font-poppins max-w-[908px] lg:text-5xl md:text-4xl text-3xl text-center font-bold " data-aos="fade-right" data-aos-delay='1000'>Awesome Design Best Furniture For Your Interior</h1>
                   <p className="text-white font-poppins md:text-xl text-lg text-center font-normal md:pt-[15px] pt-2" data-aos="fade-left" data-aos-delay='1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>
-                  <button className="md:px-12 sm:px-8  px-5 md:py-5 sm:py-4 py-3 hover:text-[#BD7D41] shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41] max-md:mb-16 text-white font-poppins md:text-xl text-lg lg:mt-12 md:mt-10 mt-3 lg:mb-64" data-aos="flip-left" data-aos-delay='1000'>SHOP NOW</button>
+                  <button className="md:px-12 sm:px-8  px-5 md:py-5 sm:py-4 py-3 hover:text-[#BD7D41] shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41] max-md:mb-16 text-white font-poppins md:text-xl text-lg lg:mt-12 md:mt-10 mt-3 lg:mb-64">SHOP NOW</button>
               </div>
               </div>
     </div>

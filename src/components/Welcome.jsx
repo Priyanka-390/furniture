@@ -55,7 +55,7 @@ const Welcome = () => {
                   non rhoncus nisi neque sit amet nibh. Phasellus consectetur semper
                   ante et mattis
                 </p>
-                <button className="font-poppins text-white text-xl leading-normal text-center shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41] hover:text-[#BD7D41] py-[19px] px-12 font-semibold " data-aos="flip-right">
+                <button className="font-poppins text-white text-xl leading-normal text-center shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41] hover:text-[#BD7D41] py-[19px] px-12 font-semibold " >
                   READ MORE
                 </button>
             </div>

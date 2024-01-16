@@ -16,7 +16,7 @@ const Offersec = () => {
               <p className=" font-poppins sm:text-lg text-base font-normal leading-normal text-[#000000B2] max-w-[262px] sm:mb-[38px] mb-5" data-aos="zoom-in-right">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </p>
-              <button className="font-poppins text-white sm:text-xl text-lg font-medium leading-normal text-center py-2.5 px-3 hover:text-[#BD7D41] shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41]"data-aos="zoom-in-leftt">
+              <button className="font-poppins text-white sm:text-xl text-lg font-medium leading-normal text-center py-2.5 px-3 hover:text-[#BD7D41] shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41]">
                 ADD TO CART
               </button>
             </div>
@@ -32,7 +32,7 @@ const Offersec = () => {
               <p className=" font-poppins sm:text-lg text-base font-normal leading-normal text-[#000000B2] max-w-[262px] sm:mb-[38px] mb-5" data-aos="zoom-in-right">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </p>
-              <button className="font-poppins text-white sm:text-xl text-lg font-medium leading-normal text-center sm:py-2.5 py-2 sm:px-3 px-2 hover:text-[#BD7D41] shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41]" data-aos="zoom-in-left">
+              <button className="font-poppins text-white sm:text-xl text-lg font-medium leading-normal text-center sm:py-2.5 py-2 sm:px-3 px-2 hover:text-[#BD7D41] shadow-[inset_0_18rem_0_0_#BD7D41] border-[2px] border-transparent hover:shadow-[inset_0_0_0_0] duration-500 hover:border-[#BD7D41]" >
                 ADD TO CART
               </button>
             </div>

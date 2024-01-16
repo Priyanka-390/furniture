@@ -25,7 +25,7 @@ const Shopping = () => {
   };
   const myArray = carddata.map((carddata) => (
     <div className="pr-[21px]"data-aos="zoom-out">
-      <div className="card max-w-[295px] p-4 shadow-[2px_7px_28px_0px_#0000000D]
+      <div className="card max-w-[295px] p-4 duration-500 hover:shadow-[2px_7px_28px_0px_#0000000D]
        bg-white">
         <img src={carddata.img} alt="first" />
         <div className="pt-3 flex items-center justify-between gap-[47px]">
