@@ -5,7 +5,7 @@ const Footer = () => {
   const p = new Date();
   const pika = p.getFullYear();
   return (
-   <div className="bg-[#243040] ">
+   <div className="bg-[#243040] overflow-x-clip ">
       <div className="max-w-[1320px] mx-auto px-3">
         <div className="flex flex-row flex-wrap -mx-3 lg:py-[87px] md:pt-16 pt-10">
           <div className="lg:w-7/12 md:w-5/12 px-3 w-full">

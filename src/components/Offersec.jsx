@@ -2,7 +2,7 @@ import React from "react";
 
 const Offersec = () => {
   return (
-    <div className=" lg:pb-24 md:pb-16 pb-10">
+    <div className=" lg:pb-24 md:pb-16 pb-10 overflow-x-clip">
       <div className="container max-w-[1320px] mx-auto px-3">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="md:w-1/2 w-full px-3">

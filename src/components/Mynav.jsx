@@ -15,7 +15,7 @@ const Mynav = () => {
   }
 
   return (
-    <div className="min-[1200px]:min-h-screen  ">
+    <div className="min-[1200px]:min-h-screen  overflow-x-clip ">
       <div className="container max-w-[1320px] px-3 mx-auto">
         <div className="flex py-[15px] justify-between items-center">
           <div className="flex items-center cursor-pointer">
