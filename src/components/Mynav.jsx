@@ -42,7 +42,7 @@ const Mynav = () => {
              <Link to="/shop" className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] duration-700 transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">CONTACT US</Link> 
             </li>
             <li className="gap-[28px] flex">
-              <span>
+              <span className="cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
@@ -56,7 +56,7 @@ const Mynav = () => {
                   />
                 </svg>
               </span>
-              <span>
+              <span className=" cursor-pointer"> 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="26"
