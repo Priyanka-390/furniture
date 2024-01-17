@@ -21,3 +21,6 @@
 .sec .slick-track {
   display: flex !important;
 }
+.webkitst:hover{
+  -webkit-text-stroke: 0.7px #fff;
+}

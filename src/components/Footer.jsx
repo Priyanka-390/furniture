@@ -85,7 +85,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto hover:text-[#BD7D41] duration-500 md:text-sm text-xs leading-normal font-normal"
                     >
                       Home
                     </a>
@@ -93,7 +93,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Shop
                     </a>
@@ -101,7 +101,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Product
                     </a>
@@ -109,7 +109,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm text-xs hover:text-[#BD7D41] duration-500 leading-normal font-normal"
                     >
                       Festival Offer
                     </a>
@@ -117,7 +117,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm text-xs hover:text-[#BD7D41] duration-500 leading-normal font-normal"
                     >
                       Log In
                     </a>
@@ -132,7 +132,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Album
                     </a>
@@ -140,7 +140,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Shop
                     </a>
@@ -148,7 +148,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Product
                     </a>
@@ -156,7 +156,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Festival Offer
                     </a>
@@ -164,7 +164,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Log In
                     </a>
@@ -179,7 +179,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Single
                     </a>
@@ -187,7 +187,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Aleeper Sofas
                     </a>
@@ -195,7 +195,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Accent Chairs
                     </a>
@@ -203,7 +203,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Festival Offer
                     </a>
@@ -211,7 +211,7 @@ const Footer = () => {
                   <li className="mb-[13px]">
                     <a
                       href=""
-                      className="text-white font-roboto md:text-sm text-xs leading-normal font-normal"
+                      className="text-white font-roboto md:text-sm hover:text-[#BD7D41] duration-500 text-xs leading-normal font-normal"
                     >
                       Log In
                     </a>

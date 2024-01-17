@@ -30,16 +30,16 @@ const Mynav = () => {
             }`}
           >
             <li >
-              <Link to='/' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-bold"> HOME</Link>
+              <Link to='/' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0 duration-700  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst hover:webkitst "> HOME</Link>
             </li>
             <li >
-             <Link to="/about"  className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-bold">ABOUT US</Link> 
+             <Link to="/about"  className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0 duration-700  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">ABOUT US</Link> 
             </li>
-            <li className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-bold">
+            <li className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all duration-700 after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">
               SHOP
             </li>
             <li >
-             <Link to="/shop" className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-bold">CONTACT US</Link> 
+             <Link to="/shop" className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] duration-700 transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">CONTACT US</Link> 
             </li>
             <li className="gap-[28px] flex">
               <span>
