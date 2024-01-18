@@ -116,7 +116,6 @@ const Testimonial = () => {
             </div>
           </Slider>
           <Slider
-            {...settings}
             centerMode={true}
             asNavFor={nav1}
             ref={(slider2) => setNav2(slider2)}

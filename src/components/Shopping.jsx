@@ -14,22 +14,25 @@ const carddata = [
 ];
 
 const Shopping = () => {
-  const first=React.useRef(null)
+  const first = React.useRef(null);
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    variableWidth:true,
+    variableWidth: true,
+    autoplay: true,
   };
-  const myArray = carddata.map((carddata) => (
-    <div className="pr-[21px]"data-aos="zoom-out">
-      <div className="card max-w-[295px] p-4 duration-500 hover:shadow-[2px_7px_28px_0px_#0000000D]
-       bg-white">
+  const myArray = carddata.map((carddata, p) => (
+    <div key={p} className="pr-[21px]" data-aos="zoom-out">
+      <div
+        className="card max-w-[295px] p-4 duration-500 hover:shadow-[2px_7px_28px_0px_#0000000D]
+       bg-white"
+      >
         <img src={carddata.img} alt="first" />
         <div className="pt-3 flex items-center justify-between gap-[47px]">
-          <p className="font-poppins text-nowrap text-black text-xl font-medium">
+          <p className="font-poppins text-nowrap text-black md:text-xl text-lg font-medium">
             Single Sofa
           </p>
           <span>
@@ -64,7 +67,7 @@ const Shopping = () => {
           </span>
         </div>
         <div className="flex items-center pb-4">
-          <p className="text-black text-nowrap font-poppins text-[28px] font-semibold pt-2">
+          <p className="text-black text-nowrap font-poppins lg:text-[28px] md:text-[25px] text-[20px] font-semibold pt-2">
             ₹ 1200.00{" "}
           </p>
           <span className="text-[#C4C4C4] text-nowrap pl-2 pt-[6px] font-poppins text-[11px] font-normal">
@@ -81,24 +84,34 @@ const Shopping = () => {
           <div className="md:w-5/12 w-full px-3 z-[2]">
             <div className="flex items-center gap-[11px] md:justify-start justify-center md:mb-[19px]">
               <div className="w-[13%] border border-solid border-black"></div>
-              <h3 className=" font-poppins sm:text-xl text-lg  text-center leading-normal font-normal text-[#BD7D41]" data-aos="zoom-in-down">
+              <h3
+                className=" font-poppins sm:text-xl text-lg  text-center leading-normal font-normal text-[#BD7D41]"
+                data-aos="zoom-in-down"
+              >
                 Shopping Store
               </h3>
             </div>
-            <h2 className="text-[#243040] md:text-start text-center md:pb-5 sm:pb-3 pb-1 font-poppins lg:text-[35px] md:text-2xl text-xl font-bold " data-aos="zoom-in-down">
+            <h2
+              className="text-[#243040] md:text-start text-center md:pb-5 sm:pb-3 pb-1 font-poppins lg:text-[35px] md:text-2xl text-xl font-bold "
+              data-aos="zoom-in-down"
+            >
               Buy trending furniture Products.
             </h2>
             <div className="flex md:justify-start justify-center">
               <p
                 className="text-[#000000B2] md:text-start text-center max-w-[422px] md:mb-10 sm:mb-7 mb-4 font-poppins md:text-lg text-base font-normal
-              "data-aos="zoom-in-down"
+              "
+                data-aos="zoom-in-down"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 faucibus, urna at pulvinar porta
               </p>
             </div>
             <div className="flex gap-3" data-aos="zoom-in-down">
-              <button onClick={()=>first?.current?.slickPrev()} className="w-[41px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent flex justify-center items-center h-[41px] rounded-[10px] bg-white">
+              <button
+                onClick={() => first?.current?.slickPrev()}
+                className="w-[41px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent flex justify-center items-center h-[41px] rounded-[10px] bg-white"
+              >
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -109,12 +122,16 @@ const Shopping = () => {
                   >
                     <path
                       d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464466C4.02369 0.269204 4.34027 0.269204 4.53553 0.464466C4.7308 0.659728 4.7308 0.976311 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82843 7.53553L0.646446 4.35355ZM21 4.5H1V3.5H21V4.5Z"
-                      fill="black" className="group-hover:fill-[#BD7D41]"
+                      fill="black"
+                      className="group-hover:fill-[#BD7D41]"
                     />
                   </svg>
                 </span>
               </button>
-              <button onClick={()=>first?.current?.slickNext()} className="w-[41px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent flex justify-center items-center h-[41px] rounded-[10px] bg-white">
+              <button
+                onClick={() => first?.current?.slickNext()}
+                className="w-[41px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent flex justify-center items-center h-[41px] rounded-[10px] bg-white"
+              >
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +142,8 @@ const Shopping = () => {
                   >
                     <path
                       d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
-                      fill="black" className="group-hover:fill-[#BD7D41]"
+                      fill="black"
+                      className="group-hover:fill-[#BD7D41]"
                     />
                   </svg>
                 </span>
@@ -133,12 +151,16 @@ const Shopping = () => {
             </div>
           </div>
           <div className="md:w-7/12 w-full px-3 max-md:mt-4">
-            <Slider ref={first} {...settings}>{myArray}</Slider>
+            <Slider ref={first} {...settings}>
+              {myArray}
+            </Slider>
           </div>
         </div>
       </div>
-            <div className="2xl:max-w-[741px] max-w-[300px] lg:max-w-[500px] xl:max-w-[600px] max-h-[300px] md:max-h-[417px] bg-[linear-gradient(180deg,#243040_0%,#8B929B_100%)] w-full z-[0] h-full absolute right-0 bottom-0 md:top-[-153px]"data-aos="fade-down"></div>
-
+      <div
+        className="2xl:max-w-[741px] max-w-[300px] lg:max-w-[500px] xl:max-w-[600px] max-h-[300px] md:max-h-[417px] bg-[linear-gradient(180deg,#243040_0%,#8B929B_100%)] w-full z-[0] h-full absolute right-0 md:bottom-0 bottom-[7%] md:top-[-153px]"
+        data-aos="fade-down"
+      ></div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ function App() {
     AOS.init(
       {
          once: true,
-         duration:3000,
+         duration:2000,
       }
         );
       }, [])

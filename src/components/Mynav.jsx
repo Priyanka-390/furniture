@@ -3,6 +3,10 @@ import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Mynav = () => {
+  const [search, showsearch] = useState(false)
+  function showinput() {
+    showsearch(!search)
+  }
   const [show, setshow] = useState(true);
   function nav() {
     setshow(!show);
@@ -30,20 +34,20 @@ const Mynav = () => {
             }`}
           >
             <li >
-              <Link to='/' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0 duration-700  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst hover:webkitst "> HOME</Link>
+              <Link to='/'onClick={nav} className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0 duration-700  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal  hover:webkitst "> HOME</Link>
             </li>
             <li >
-             <Link to="/about"  className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0 duration-700  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">ABOUT US</Link> 
+             <Link to="/about" onClick={nav}  className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0 duration-700  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal ">ABOUT US</Link> 
             </li>
-            <li className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all duration-700 after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">
+            <li onClick={nav} className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all duration-700 after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">
               SHOP
             </li>
             <li >
-             <Link to="/shop" className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] duration-700 transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">CONTACT US</Link> 
+             <Link to="/shop" onClick={nav} className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] duration-700 transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-roboto text-lg font-normal webkitst ">CONTACT US</Link> 
             </li>
             <li className="gap-[28px] flex">
-              <span className="cursor-pointer">
-                <svg
+              <span className="cursor-pointer flex relative z-[1]">
+                <svg onClick={showinput} className={`${search&& "sm:absolute sm:right-[12px] sm:top-[11px] z-[2]"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
                   height="19"
@@ -55,6 +59,7 @@ const Mynav = () => {
                     fill="white"
                   />
                 </svg>
+                <input type="search" placeholder="search" className={`bg-transparent outline-0 border-[2px] border-white ${search?"w-full visible py-2 duration-500 pl-3 text-white h-full ":"w-0 invisible absolute h-0 "}`} />
               </span>
               <span className=" cursor-pointer"> 
                 <svg

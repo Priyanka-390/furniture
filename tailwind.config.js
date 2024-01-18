@@ -15,7 +15,11 @@ module.exports = {
       backgroundImage: {
         'boxgradient':'linear-gradient(270deg, #8C939B 0%, #243040 100%)'
 
-      }
+      },
+      animation: {
+        'ping-slow':'ping 6s linear'
+      },
+
     },
   },
   plugins: [],

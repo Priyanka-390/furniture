@@ -2,7 +2,7 @@ import React from "react";
 
 const Preloader = () => {
   return (
-    <div className="bg-black flex justify-center items-center fixed top-0 left-0 right-0 bottom-0 h-full z-30">
+    <div className="bg-[#788089] flex justify-center flex-col items-center fixed top-0 left-0 right-0 bottom-0 h-full z-30">
       <svg className="w-[150px] h-[150px]" viewBox="0 0 100 100">
         <g
           fill="none"
@@ -80,6 +80,7 @@ const Preloader = () => {
           />
         </g>
       </svg>
+      <p className="text-white lg:text-4xl font-poppins animate-ping-slow md:text-3xl text-2xl" >furniture-loading........</p>
     </div>
   );
 };

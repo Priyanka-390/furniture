@@ -32,8 +32,8 @@ const Latest = () => {
       }
     ]
   };
-    const data = slidedata.map((slidedata)=> (
-          <div
+    const data = slidedata.map((slidedata,pa)=> (
+          <div key={pa}
           className="card md:px-6 px-4 transition-all duration-700 md:mt-16 sm:mt-10 mt-5 py-4 hover:shadow-[6px_13px_38px_0px_#0000001F]
 
  bg-white shadow-[0px_0px_0px_0px_#0000001F]"
@@ -99,12 +99,12 @@ const Latest = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between">
           <h2 className="md:pt-5 pt-2 text-[#243040] font-poppins md:text-[35px] sm:text-3xl text-2xl font-bold ">
             Latest Deal
-          </h2>  <div className="flex items-center gap-5">
-             <button onClick={()=> arrow?.current?.slickPrev()} className="md:w-[99px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent md:h-[99px] w-[50px] h-[50px] 2xl:absolute left-[-7%] bottom-[36%] rounded-full flex justify-center items-center bg-white shadow-[2px_7px_16px_0px_#00000014]
+          </h2>  <div className="flex items-center gap-5 max-sm:pt-4">
+             <button onClick={()=> arrow?.current?.slickPrev()} className="2xl:w-[99px] md:w-[80px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent 2xl:h-[99px] md:h-[80px] w-[50px] h-[50px] 2xl:absolute left-[-7%] bottom-[36%] rounded-full flex justify-center items-center bg-white shadow-[2px_7px_16px_0px_#00000014]
             "><span><svg xmlns="http://www.w3.org/2000/svg" width="42" height="16" viewBox="0 0 42 16" fill="none">
               <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM42 9H1V7H42V9Z" fill="black" className="group-hover:fill-[#BD7D41]"/>
                       </svg></span></button>
-                   <button onClick={()=> arrow?.current?.slickNext()} className="md:w-[99px] md:h-[99px] w-[50px] h-[50px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent 2xl:absolute right-[-7%] bottom-[36%]  rounded-full flex justify-center items-center bg-white shadow-[2px_7px_16px_0px_#00000014]
+                   <button onClick={()=> arrow?.current?.slickNext()} className="2xl:w-[99px] md:w-[80px] 2xl:h-[99px] md:h-[80px] w-[50px] h-[50px] duration-500 group hover:border-[#BD7D41] border-[2px] border-transparent 2xl:absolute right-[-7%] bottom-[36%]  rounded-full flex justify-center items-center bg-white shadow-[2px_7px_16px_0px_#00000014]
             "><span><svg xmlns="http://www.w3.org/2000/svg" width="42" height="16" viewBox="0 0 42 16" fill="none">
               <path d="M41.7071 8.70711C42.0976 8.31658 42.0976 7.68342 41.7071 7.29289L35.3431 0.928932C34.9526 0.538408 34.3195 0.538408 33.9289 0.928932C33.5384 1.31946 33.5384 1.95262 33.9289 2.34315L39.5858 8L33.9289 13.6569C33.5384 14.0474 33.5384 14.6805 33.9289 15.0711C34.3195 15.4616 34.9526 15.4616 35.3431 15.0711L41.7071 8.70711ZM0 9H41V7H0V9Z" fill="black" className="group-hover:fill-[#BD7D41]"/>
             </svg></span></button>
